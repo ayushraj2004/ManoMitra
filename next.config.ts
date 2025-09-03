@@ -10,8 +10,17 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     serverComponentsExternalPackages: ['genkit'],
+    esmExternals: 'loose',
   },
-  outputFileTracing: false,
+  webpack: (config: any) => {
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      fs: false,
+      net: false,
+      tls: false,
+    };
+    return config;
+  },
   images: {
     remotePatterns: [
       {

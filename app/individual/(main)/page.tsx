@@ -6,6 +6,8 @@ import Image from 'next/image';
 import WellnessQuoteCard from '@/components/wellness-quote-card';
 import { Progress } from '@/components/ui/progress';
 
+export const dynamic = 'force-static';
+
 const features = [
   {
     title: 'AI Wellness Chat',
