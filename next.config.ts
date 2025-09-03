@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  experimental: {
+    serverComponentsExternalPackages: ['genkit'],
+  },
+  outputFileTracing: false,
   images: {
     remotePatterns: [
       {
