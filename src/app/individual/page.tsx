@@ -1,10 +1,7 @@
-import IndividualPortalMainLayout from './(main)/layout';
-import IndividualDashboardPage from './(main)/page';
+import IndividualDashboardContent from '@/components/individual-dashboard-content';
 
 export default function IndividualPage() {
   return (
-    <IndividualPortalMainLayout>
-      <IndividualDashboardPage />
-    </IndividualPortalMainLayout>
+    <IndividualDashboardContent />
   );
 }

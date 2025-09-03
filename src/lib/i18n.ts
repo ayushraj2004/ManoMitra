@@ -147,7 +147,7 @@ export const translations = {
                     bio: 'Divyansh leads the technical vision of ManoMitra. With a strong background in AI and web development, he drives projects from idea to execution with a sharp focus on user impact and efficiency.',
                 },
                 {
-                    name: 'Vikram Singh',
+                    name: 'Ayush Raj',
                     title: 'Head of Product',
                     bio: 'Vikram is a product leader focused on creating user-centric solutions. He is dedicated to building a platform that is not only effective but also empathetic and easy to use.',
                 },

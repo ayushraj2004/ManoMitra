@@ -1,10 +1,7 @@
-import StudentDashboardMainLayout from './(main)/layout';
-import StudentDashboardContent from './(main)/page';
+import StudentDashboardContent from '@/components/student-dashboard-content';
 
 export default function StudentPage() {
   return (
-    <StudentDashboardMainLayout>
-      <StudentDashboardContent />
-    </StudentDashboardMainLayout>
+    <StudentDashboardContent />
   );
 }

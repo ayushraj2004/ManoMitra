@@ -1,10 +1,7 @@
-import EmployeeDashboardMainLayout from './(main)/layout';
-import EmployeeDashboardPage from './(main)/page';
+import EmployeeDashboardContent from '@/components/employee-dashboard-content';
 
 export default function EmployeePage() {
   return (
-    <EmployeeDashboardMainLayout>
-      <EmployeeDashboardPage />
-    </EmployeeDashboardMainLayout>
+    <EmployeeDashboardContent />
   );
 }

@@ -130,5 +130,3 @@ You can now access the application in your browser and explore its features.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-# ManoMitra-prototype
-# ManoMitra-prototype

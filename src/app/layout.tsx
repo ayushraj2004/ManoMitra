@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <LanguageProvider>
       <html lang="en" suppressHydrationWarning>
-        <body className={`${poppins.variable} ${baloo.variable} font-body antialiased nextjs-portal`} >
+        <body className={`${poppins.variable} ${baloo.variable} font-body antialiased`}>
           {children}
           <Toaster />
         </body>
