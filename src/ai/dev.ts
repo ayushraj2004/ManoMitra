@@ -1,6 +1,9 @@
-'use server';
 import { config } from 'dotenv';
-config();
+
+// Only load dotenv in development
+if (process.env.NODE_ENV !== 'production') {
+  config();
+}
 
 import '@/ai/flows/generate-culturally-relevant-response.ts';
 import '@/ai/flows/suggest-study-improvements.ts';

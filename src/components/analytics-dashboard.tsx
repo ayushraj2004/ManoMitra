@@ -194,7 +194,6 @@ export default function AnalyticsDashboard() {
                 <Treemap
                     data={topConcernsData}
                     dataKey="size"
-                    ratio={4 / 3}
                     stroke="hsl(var(--card))"
                     fill="hsl(var(--primary))"
                 >

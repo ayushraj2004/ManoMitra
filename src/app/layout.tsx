@@ -73,7 +73,7 @@ function MainContent({ children }: { children: React.ReactNode }) {
       return child;
   });
 
-  const isDashboard = pathname.startsWith('/dashboard') || pathname.startsWith('/admin') || pathname.startsWith('/individual');
+  const isDashboard = pathname.startsWith('/dashboard') || pathname.startsWith('/admin') || pathname === '/individual' || pathname.startsWith('/individual/');
   const isSosOrLogin = pathname.startsWith('/sos') || pathname.startsWith('/login');
 
   if (isDashboard || isSosOrLogin) {
