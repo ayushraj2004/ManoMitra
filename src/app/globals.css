@@ -87,3 +87,7 @@
     @apply font-headline;
   }
 }
+
+nextjs-portal{
+  display: none !important;
+}

@@ -15,9 +15,9 @@ yarn-error.log*
 .next/
 out/
 
-# Build outputs
-dist/
+# Production build
 build/
+dist/
 
 # Runtime data
 pids
@@ -47,6 +47,6 @@ Thumbs.db
 logs
 *.log
 
-# Temporary files
-*.tmp
-*.temp
+# Temporary folders
+tmp/
+temp/
